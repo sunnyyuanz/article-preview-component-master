@@ -1,0 +1,145 @@
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background-color:hsl(210, 46%, 95%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+}
+
+main{
+    /* background-color: white; */
+    margin: auto;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    /* border-radius: 20px; */
+    
+
+}
+
+html,body{
+    height: 100%;
+    margin: 0;
+}
+
+.Mainimage img{
+    width: 130%;
+    border-radius: 10px;
+
+    
+}
+
+.Text{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 299px;
+    
+}
+
+h1{
+    font-family: 'Manrope', sans-serif;
+    font-size:21px ;
+    color: hsl(217, 19%, 35%);
+
+}
+
+h1,p{
+    margin: 0;
+}
+
+p{
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    color: hsl(214, 17%, 51%);
+    padding:1em 0;
+    line-height: 1.6em;
+}
+.authorimage img{
+    width: 76%;
+    border: solid transparent;
+    border-radius: 50px;
+}
+
+.Share{
+    display: none;
+}
+#ShareIcons{
+    display: flex;
+    background-color: hsl(217, 19%, 35%);
+    width: 233px;
+    height: 52px;
+    border-radius: 9px;
+    position: absolute;
+    right: 299px;
+    top: 453px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.author{
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    align-items: center;
+    grid-gap: 0.5em;
+
+
+}
+
+.content{
+    margin:2.5em ;
+}
+
+#name{
+    font-size: 13px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    color: hsl(217, 19%, 35%);
+
+}
+
+#date{
+    color:hsl(212, 23%, 69%);
+    font-size: 13px;
+    font-family: 'Manrope', sans-serif;
+}
+
+button{
+    border: solid transparent;
+    background-color:hsl(210, 46%, 95%);
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+}
+
+.namedate{
+    line-height: 1.3em;
+}
+
+#triangle{
+    background-color: hsl(217, 19%, 35%);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 2px;
+    top: 41px;
+    transform: rotate(45deg);
+    right: 108px;
+
+}
+
+#ShareIcons span{
+    color:hsl(212, 23%, 69%);
+    text-transform:uppercase;
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.3em;
+
+}
