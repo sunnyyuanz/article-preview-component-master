@@ -36,31 +36,32 @@
             <div id="triangle"></div><span>Share</span>
             <img src="images/icon-facebook.svg" alt="icon-facebook"><img src="images/icon-pinterest.svg"
               alt="icon-pinterest"><img src="images/icon-twitter.svg" alt="icon-twitter">
-          </div></div>
-          <section class="author">
-            <div class="authorimage"><img src="images/avatar-michelle.jpg" alt="Avatar-Michelle"></div>
-            <div class="namedate">
-              <div id="name">Michelle Appleton</div>
-              <div id="date">28 Jun 2020</div>
-            </div>
-            <button class="Sharebutton"><img src="images/icon-share.svg" alt="Share">
-            </button>
-        
+          </div>
+        </div>
+        <section class="author">
+          <div class="authorimage"><img src="images/avatar-michelle.jpg" alt="Avatar-Michelle"></div>
+          <div class="namedate">
+            <div id="name">Michelle Appleton</div>
+            <div id="date">28 Jun 2020</div>
+          </div>
+          <button class="Sharebutton"><img src="images/icon-share.svg" alt="Share">
+          </button>
+
 
       </div>
       </section>
     </div>
   </main>
   <script>
-    let sharebutton=document.querySelector('.Sharebutton')
-    let share=document.querySelector('.Share')
-    sharebutton.addEventListener('click',function(){
-      if(share.style.display=="block"){
-        share.style.display="none"
+    let sharebutton = document.querySelector('.Sharebutton')
+    let share = document.querySelector('.Share')
+    sharebutton.addEventListener('click', function () {
+      if (share.style.display == "block") {
+        share.style.display = "none"
 
-      }else{
-        share.style.display="block"
-        
+      } else {
+        share.style.display = "block"
+
       }
 
     }
