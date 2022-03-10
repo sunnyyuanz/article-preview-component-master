@@ -11,6 +11,7 @@
     href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500;700&family=Manrope:wght@500;700&family=Red+Hat+Display:wght@500;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" media="screen and (min-width:1025px)" href="widescreen.css">
+  <link rel="stylesheet" media="screen and (max-width:1024px)" href="smallscreen.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <title>Frontend Mentor | Article preview component</title>
@@ -34,8 +35,8 @@
         <div class="Share">
           <div id="ShareIcons">
             <div id="triangle"></div><span>Share</span>
-            <img src="images/icon-facebook.svg" alt="icon-facebook"><img src="images/icon-pinterest.svg"
-              alt="icon-pinterest"><img src="images/icon-twitter.svg" alt="icon-twitter">
+            <img src="images/icon-facebook.svg" alt="icon-facebook"><img src="images/icon-twitter.svg" alt="icon-twitter">
+            <img src="images/icon-pinterest.svg"alt="icon-pinterest">
           </div>
         </div>
         <section class="author">
@@ -44,7 +45,7 @@
             <div id="name">Michelle Appleton</div>
             <div id="date">28 Jun 2020</div>
           </div>
-          <button class="Sharebutton"><img src="images/icon-share.svg" alt="Share">
+          <button class="shareButton"><img class="darkIcon" src="images/icon-share.svg" alt="Share">
           </button>
 
 
@@ -52,21 +53,7 @@
       </section>
     </div>
   </main>
-  <script>
-    let sharebutton = document.querySelector('.Sharebutton')
-    let share = document.querySelector('.Share')
-    sharebutton.addEventListener('click', function () {
-      if (share.style.display == "block") {
-        share.style.display = "none"
-
-      } else {
-        share.style.display = "block"
-
-      }
-
-    }
-    )
-  </script>
+  <script src="site.js"></script>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
